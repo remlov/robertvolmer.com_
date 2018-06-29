@@ -1,0 +1,148 @@
+/* font-face */
+@font-face {
+  font-family: "Icons";
+  src: url("../fonts/social_foundicons.eot");
+  src: url("../fonts/social_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/social_foundicons.woff") format("woff"), url("../fonts/social_foundicons.ttf") format("truetype"), url("../fonts/social_foundicons.svg#Icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* global foundicon styles */
+[class*="icon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+[class*="icon-"]:before {
+  font-family: "Icons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+/* icons */
+.icon-thumb-up:before {
+  content: "\f000";
+}
+
+.icon-thumb-down:before {
+  content: "\f001";
+}
+
+.icon-rss:before {
+  content: "\f002";
+}
+
+.icon-facebook:before {
+  content: "\f003";
+}
+
+.icon-twitter:before {
+  content: "\f004";
+}
+
+.icon-pinterest:before {
+  content: "\f005";
+}
+
+.icon-github:before {
+  content: "\f006";
+}
+
+.icon-path:before {
+  content: "\f007";
+}
+
+.icon-linkedin:before {
+  content: "\f008";
+}
+
+.icon-dribbble:before {
+  content: "\f009";
+}
+
+.icon-stumble-upon:before {
+  content: "\f00a";
+}
+
+.icon-behance:before {
+  content: "\f00b";
+}
+
+.icon-reddit:before {
+  content: "\f00c";
+}
+
+.icon-google-plus:before {
+  content: "\f00d";
+}
+
+.icon-youtube:before {
+  content: "\f00e";
+}
+
+.icon-vimeo:before {
+  content: "\f00f";
+}
+
+.icon-flickr:before {
+  content: "\f010";
+}
+
+.icon-slideshare:before {
+  content: "\f011";
+}
+
+.icon-picassa:before {
+  content: "\f012";
+}
+
+.icon-skype:before {
+  content: "\f013";
+}
+
+.icon-steam:before {
+  content: "\f014";
+}
+
+.icon-instagram:before {
+  content: "\f015";
+}
+
+.icon-foursquare:before {
+  content: "\f016";
+}
+
+.icon-delicious:before {
+  content: "\f017";
+}
+
+.icon-chat:before {
+  content: "\f018";
+}
+
+.icon-torso:before {
+  content: "\f019";
+}
+
+.icon-tumblr:before {
+  content: "\f01a";
+}
+
+.icon-video-chat:before {
+  content: "\f01b";
+}
+
+.icon-digg:before {
+  content: "\f01c";
+}
+
+.icon-wordpress:before {
+  content: "\f01d";
+}
